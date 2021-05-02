@@ -1,6 +1,6 @@
-String stringOfBits = "0000";//binary to show
+String stringOfBits = "0000";//starting value of binary to show on LED board.
 
-int pins[] = {6, 7, 8, 9};//array of actual pin numbers LEDs are connected to. Length of this array should should be equal to lengh of stringOfBits
+int pins[] = {6, 7, 8, 9};//array of actual pin numbers LEDs are connected to. Length of this array should be equal to lengh of stringOfBits
 int lengthOfDelay = 500;//time to show current binary in miliseconds 
 int lengthOfInBetweenBlink = 100;//set this to 0 to avoid inbetween blink
 
